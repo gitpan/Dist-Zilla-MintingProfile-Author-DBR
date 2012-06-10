@@ -1,0 +1,42 @@
+NAME
+    Dist::Zilla::MintingProfile::Author::DBR - DBR's minting profile
+
+VERSION
+    version 0.250
+
+SYNOPSIS
+The command "dzil new -P Author::DBR"
+will give you a minted dist like this:
+        package {{$name}}; # Make everybody happy
+
+        #  PODNAME: {{$name}}
+        # ABSTRACT: Fun with {{$name}}!
+
+        use MooseX::Declare;
+        use true;
+
+        class {{$name}} {
+            use MooseX::StrictConstructor;
+            use MooseX::AlwaysCoerce;
+            use MooseX::Types::Moose -all;
+
+
+        }
+
+        =begin wikidoc
+
+        = SYNOPSIS
+
+        =end wikidoc
+
+        =cut
+
+AUTHOR
+    Daniel B. <dbr@cpan.org>
+
+COPYRIGHT AND LICENSE
+    This software is copyright (c) 2012 by Daniel B..
+
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
+

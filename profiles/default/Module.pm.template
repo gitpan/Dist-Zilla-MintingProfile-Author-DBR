@@ -1,0 +1,23 @@
+package {{$name}}; # Make everybody happy
+
+#  PODNAME: {{$name}}
+# ABSTRACT: Fun with {{$name}}!
+
+use MooseX::Declare;
+use true;
+
+class {{$name}} {
+    use MooseX::StrictConstructor;
+    use MooseX::AlwaysCoerce;
+    use MooseX::Types::Moose -all;
+
+
+}
+
+=begin wikidoc
+
+= SYNOPSIS
+
+=end wikidoc
+
+=cut

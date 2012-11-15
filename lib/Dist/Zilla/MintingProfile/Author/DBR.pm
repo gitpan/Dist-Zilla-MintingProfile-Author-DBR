@@ -1,6 +1,9 @@
 package Dist::Zilla::MintingProfile::Author::DBR;
+BEGIN {
+  $Dist::Zilla::MintingProfile::Author::DBR::AUTHORITY = 'cpan:DBR';
+}
 {
-  $Dist::Zilla::MintingProfile::Author::DBR::VERSION = '0.250';
+  $Dist::Zilla::MintingProfile::Author::DBR::VERSION = '0.255';
 }
 
 # ABSTRACT: DBR's minting profile
@@ -26,9 +29,10 @@ Dist::Zilla::MintingProfile::Author::DBR - DBR's minting profile
 
 =head1 VERSION
 
-version 0.250
+version 0.255
 
 =head1 SYNOPSIS
+
 The command C<<< dzil new -P Author::DBR >>>
 will give you a minted dist like this:
 

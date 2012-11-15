@@ -30,7 +30,7 @@ my %module_build_args = (
     "Daniel B. <dbr\@cpan.org>"
   ],
   "dist_name" => "Dist-Zilla-MintingProfile-Author-DBR",
-  "dist_version" => "0.250",
+  "dist_version" => "0.255",
   "license" => "perl",
   "module_name" => "Dist::Zilla::MintingProfile::Author::DBR",
   "recommends" => {},

@@ -2,11 +2,12 @@ NAME
     Dist::Zilla::MintingProfile::Author::DBR - DBR's minting profile
 
 VERSION
-    version 0.250
+    version 0.255
 
 SYNOPSIS
-The command "dzil new -P Author::DBR"
-will give you a minted dist like this:
+    The command "dzil new -P Author::DBR" will give you a minted dist like
+    this:
+
         package {{$name}}; # Make everybody happy
 
         #  PODNAME: {{$name}}

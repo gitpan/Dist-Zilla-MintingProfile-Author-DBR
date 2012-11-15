@@ -4,7 +4,7 @@
       "Daniel B. <dbr@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.300017, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "Dist::Zilla version 4.300020, CPAN::Meta::Converter version 2.120921",
    "license" : [
       "perl_5"
    ],
@@ -51,6 +51,7 @@
    },
    "provides" : {},
    "release_status" : "stable",
-   "version" : "0.250"
+   "version" : "0.255",
+   "x_authority" : "cpan:DBR"
 }
 
